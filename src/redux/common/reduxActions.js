@@ -60,7 +60,7 @@ const makeFetchParams = ({method, body, params, headers: optionHeaders, options}
     const hasJsonBody = !!body;
 
     const headers = {
-    };  // TODO: Need to update the header when required by the API
+    };  // TODO: Need to update the BaseHeader when required by the API
 
     if (hasJsonBody) {
         headers["Content-Type"] = "application/json; charset=UTF-8";

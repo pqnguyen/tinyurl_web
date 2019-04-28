@@ -1,10 +1,15 @@
 import pagePaths from "src/constants/pagePaths";
-import App from "src/App";
+import Home from "src/pages/Home/HomePage";
+import Hash from "src/pages/Hash/HashPage";
 
 const routeMapping = [
     {
         "path": pagePaths.HOME,
-        "component": App
+        "component": Home
+    },
+    {
+        "path": pagePaths.HASH,
+        "component": Hash
     }
 ];
 
